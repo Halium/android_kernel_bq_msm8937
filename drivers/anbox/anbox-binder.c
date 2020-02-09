@@ -1999,8 +1999,6 @@ static void binder_transaction(struct binder_proc *proc,
 	}
 	binder_stats_created(BINDER_STAT_TRANSACTION_COMPLETE);
 
-
-
 	t->debug_id = ++binder_last_id;
 	e->debug_id = t->debug_id;
 

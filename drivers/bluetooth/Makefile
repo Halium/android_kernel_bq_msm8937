@@ -2,6 +2,7 @@
 # Makefile for the Linux Bluetooth HCI device drivers.
 #
 
+obj-$(CONFIG_BT_HCISMD)		+= hci_smd.o
 obj-$(CONFIG_BT_HCIVHCI)	+= hci_vhci.o
 obj-$(CONFIG_BT_HCIUART)	+= hci_uart.o
 obj-$(CONFIG_BT_HCIBCM203X)	+= bcm203x.o
@@ -11,7 +12,6 @@ obj-$(CONFIG_BT_HCIDTL1)	+= dtl1_cs.o
 obj-$(CONFIG_BT_HCIBT3C)	+= bt3c_cs.o
 obj-$(CONFIG_BT_HCIBLUECARD)	+= bluecard_cs.o
 obj-$(CONFIG_BT_HCIBTUART)	+= btuart_cs.o
-obj-$(CONFIG_BT_HCISMD)		+= hci_smd.o
 
 obj-$(CONFIG_BT_HCIBTUSB)	+= btusb.o
 obj-$(CONFIG_BT_HCIBTSDIO)	+= btsdio.o
