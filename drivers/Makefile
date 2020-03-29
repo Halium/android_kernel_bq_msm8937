@@ -173,3 +173,7 @@ obj-$(CONFIG_ESOC)		+= esoc/
 obj-$(CONFIG_BIF)		+= bif/
 
 obj-$(CONFIG_SENSORS_SSC)	+= sensors/
+
+# Fingerprint
+
+obj-$(CONFIG_FINGERPRINT)	+= fingerprint/

@@ -201,4 +201,8 @@ source "drivers/anbox/Kconfig"
 
 source "drivers/bif/Kconfig"
 
+# Fingerprint
+source "drivers/fingerprint/Kconfig"
+
+
 endmenu
