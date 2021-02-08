@@ -852,6 +852,6 @@ CONFIG_FINGERPRINT_GOODIX_GF3208=y
 CONFIG_FINGERPRINT_FPC1020=y
 
 # Enable booting from system
-CONFIG_CMDLINE="datapart=/dev/mmcblk0p46"
-CONFIG_CMDLINE="systempart=/dev/mmcblk0p24"
+#CONFIG_CMDLINE="datapart=/dev/mmcblk0p46"
+#CONFIG_CMDLINE="systempart=/dev/mmcblk0p24"
 
